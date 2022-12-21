@@ -4,14 +4,15 @@
 		<h1 class="card-title">Simple Base Layers</h1>
 		<p>
 			In this example, we create a map with multiple base layers using <code>[leafletBaseLayers]</code>.
-			The <code>[leafletBaseLayers]</code> directive automatically adds the layers control so the user can switch between base layers.
+			The <code>[leafletBaseLayers]</code> directive automatically adds the layers control so the user can switch
+			between base layers.
 			You can optionally provide options for the layers control using <code>[leafletLayersControlOptions]</code>.
 		</p>
 
 		<div class="card bg-light">
 			<div class="card-body">
 
-<pre class="pre-scrollable">
+				<pre class="pre-scrollable">
 &lt;div leaflet style="height: 300px;"
         [leafletOptions]="options"
         [leafletBaseLayers]="baseLayers"
@@ -25,10 +26,8 @@
 	<div class="card-body">
 
 		<div class="m-2">
-			<div leaflet style="height: 300px;"
-				 [leafletOptions]="options"
-				 [leafletBaseLayers]="baseLayers"
-				 [leafletLayersControlOptions]="layersControlOptions">
+			<div leaflet style="height: 300px;" [leafletOptions]="options" [leafletBaseLayers]="baseLayers"
+				[leafletLayersControlOptions]="layersControlOptions">
 			</div>
 		</div>
 
